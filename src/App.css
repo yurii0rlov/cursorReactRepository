@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+body {
+  background:#243447;
+  font-family: 'Asap', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+p{
+  margin: 0;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.author,
+.authorHeader{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.authorName{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 0.2rem;
+}
+.postText{
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.authorText{
+  display: flex;
+  flex-direction: column;
+}
+.comments,
+.repost,
+.likes,
+.share,
+.communityStats,
+.authorHeader{
+  display: flex;
+  flex-direction: row;
+}
+.avatar{
+  border-radius: 50%;
+  width:5rem;
+  height: 5rem;
+  margin-right: 15px;
+}
+.downArrow{
+  margin-left: auto;
+  margin-right: 0.2rem;
+  cursor: pointer;
+}
+svg{
+  filter: invert(.50);
+}
+.verfied,
+.nickname{
+  margin-right: 0.2rem;
+}
+.nickname,
+.date,
+.communityStats{
+  color: grey;
+}
+
+.postImage{
+  margin-left: 10%;
+  border-radius: 1rem;
+}
+
+.communityStats{
+  margin-left: 10%;
+}
+
+.share,
+.likes,
+.repost,
+.comments{
+  margin-top: 0.7rem;
+  margin-right: 12rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.communityStats svg{
+  margin-right: 0.5rem;
+}
+
+.share:hover,
+.likes:hover,
+.repost:hover,
+.comments:hover{
+  color: #c51f5d;
+}
